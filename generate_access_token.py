@@ -30,4 +30,8 @@ conn.request(
 res = conn.getresponse()
 data = res.read()
 
+print('#'*30)
+print('YOUR ACCESS TOKEN')
+print('#'*30)
 print(data.decode("utf-8"))
+print('#'*30)
