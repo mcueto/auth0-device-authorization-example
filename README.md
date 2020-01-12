@@ -17,6 +17,12 @@ pip install -r requirements.txt
 cp .env.dist .env
 ```
 
+### Generate an access token(client_credentials)
 ```
 python generate_access_token.py
+```
+
+### Decode your access token and print it's content
+```
+python decode_access_token.py
 ```
